@@ -37,6 +37,7 @@ const AppContent = () => {
       <WebView
         ref={webviewRef}
         source={{ uri: 'https://www.guphani.com/html/index.html' }}
+        originWhitelist={['*']}
         style={styles.webView}
       />
     </View>
