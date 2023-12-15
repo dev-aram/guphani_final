@@ -1,47 +1,52 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { WebView } from 'react-native-webview';
-import { View, StyleSheet, BackHandler, Alert } from 'react-native';
+/* 
 
-const App = () => {
-  const [isFirstScreen, setIsFirstScreen] = useState(true);
-  const webViewRef = useRef(null);
+import React, { useEffect } from 'react';
+import { View, BackHandler, Alert, StyleSheet } from 'react-native';
+import { WebView } from 'react-native-webview';
+import { useNavigation } from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+
+const Stack = createStackNavigator();
+
+const Guphani = () => {
+  const navigation = useNavigation();
 
   useEffect(() => {
-    const backAction = async () => {
-      if (isFirstScreen) {
-        Alert.alert('Hold on!', 'Are you sure you want to go back?', [
-          {
-            text: 'Cancel',
-            onPress: () => null,
-            style: 'cancel',
-          },
-          { text: 'YES', onPress: () => BackHandler.exitApp() },
-        ]);
-        return true;
-      } else if (webViewRef.current) {
-        // Inject JavaScript code to handle the go back action within the WebView
-        await webViewRef.current.injectJavaScript(`
-          if (typeof closeModal === 'function') {
-            closeModal(); 
-          }
-        `);
-        return true;
+    const backAction = () => {
+      Alert.alert('잠깐만요!', '뒤로 가기를 하실 건가요?', [
+        {
+          text: '취소',
+          onPress: () => null,
+          style: 'cancel',
+        },
+        { text: '네', onPress: () => handleGoBack() },
+      ]);
+      return true;
+    };
+
+    const handleGoBack = () => {
+      // Use navigation.goBack() to go back to the previous screen
+      if (navigation.canGoBack()) {
+        navigation.goBack();
+      } else {
+        // If there's no previous screen, handle it accordingly
+        console.log('No previous screen');
+        
       }
-      return false;
     };
 
     const backHandler = BackHandler.addEventListener(
       'hardwareBackPress',
-      backAction,
+      backAction
     );
 
     return () => backHandler.remove();
-  }, [isFirstScreen]);
+  }, [navigation]);
 
   return (
     <View style={styles.container}>
       <WebView
-        ref={webViewRef}
         source={{ uri: 'https://www.guphani.com/html/index.html' }}
         // style={{ marginTop: 20 }}
         // Add the injectedJavaScript prop to handle communication with the WebView
@@ -57,6 +62,16 @@ const App = () => {
   );
 };
 
+const App = () => {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Guphani" component={Guphani} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+};
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -64,3 +79,28 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+*/
+
+
+// App.js
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import AppContent from './AppContent';
+
+const Stack = createStackNavigator();
+
+const App = () => {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="AppContent" component={AppContent} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+};
+
+export default App;
+
+
+
