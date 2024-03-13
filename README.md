@@ -5,6 +5,22 @@
 ###### 인원: 4명
 ###### 기간: 2023-11-13 ~ 2023-12-20
 
+-----------------
+### ⚙️ Skills & Tools
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/> </t>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/></br>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> 
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=JavaScript&logoColor=white"/>
+</br>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/></br>
+<img src="https://img.shields.io/badge/AdobePhotoshop-31A8FF?style=flat-square&logo=AdobePhotoshop&logoColor=white"/>
+<img src="https://img.shields.io/badge/AdobeXD-FF61F6?style=flat-square&logo=AdobeXD&logoColor=white"/>
+<img src="https://img.shields.io/badge/AdobeIllustrator-FF9A00?style=flat-square&logo=AdobeIllustrator&logoColor=white"/>
+
+
 ## **다운로드 링크**
 - https://play.google.com/store/apps/details?id=com.aram1.guphani
 <img width="100%" alt="image" src="https://github.com/dev-aram/guphani_final/assets/135501045/cf932fd3-15b2-48f1-a118-55e93fc71a0a">
@@ -85,19 +101,3 @@ https://xd.adobe.com/view/95164ac6-ce1a-4197-9261-b38955e0d5e5-c045/
 ## 🚀 트러블슈팅
 <img width="100%" alt="image" src="https://github.com/dev-aram/guphani_final/assets/135501045/08aafcf7-d48c-44ac-92e0-76d901ac6d07">
 <img width="100%" alt="image" src="https://github.com/dev-aram/guphani_final/assets/135501045/b7b55472-b282-49ea-a503-3924aeed3de0">
-
-
------------------
-### ⚙️ Skills & Tools
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/> </t>
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/></br>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=JavaScript&logoColor=white"/>
-</br>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/></br>
-<img src="https://img.shields.io/badge/AdobePhotoshop-31A8FF?style=flat-square&logo=AdobePhotoshop&logoColor=white"/>
-<img src="https://img.shields.io/badge/AdobeXD-FF61F6?style=flat-square&logo=AdobeXD&logoColor=white"/>
-<img src="https://img.shields.io/badge/AdobeIllustrator-FF9A00?style=flat-square&logo=AdobeIllustrator&logoColor=white"/>
