@@ -50,10 +50,26 @@
 
 
 ## 👨‍💻 Process & Role
-#### Overall Process
-###### - 기획, 서버구현, 프론트구현, PPT, 발표. 디자인, 서버배포
-#### 😺 My Role
-###### - 기획, 서버구현, 프론트구현, PPT, 발표. 디자인, 서버배포
+### **Overall Process**
+
+- 기획, 서버구현, 프론트구현, PPT, 발표, 디자인, 서버배포
+
+### 😺 My Role
+
+- 기획
+    - 어플리케이션 전체 기능 및 구현 기획
+- 서버구현
+    - Node.js를 이용하여 로그인, 문의사항, 공지사항, 응급처치, 사용자, 관리자페이지 전체 개발
+- 프론트구현
+    - CSS, HTML, JavaScript를 이용하여 전체적인 퍼블리싱 구현
+- PPT
+    - PPT 제작
+- 발표
+    - 어플리케이션 발표
+- 디자인
+    - 어플리케이션 전체적인 디자인
+- 서버배포
+    - 클라우드타입을 이용하여 프론트, 서버 배포
 
 ## 🌏 IA(Information Architecture)
 <img width="100%" alt="image" src="https://github.com/dev-aram/guphani_final/assets/135501045/6ccfcf05-76fe-4a27-a9a3-fae1d2ff4c47">
